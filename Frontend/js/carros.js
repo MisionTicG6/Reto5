@@ -6,7 +6,7 @@ $(document).ready(function(){
 
 function leerCarros() {
     $.ajax({
-        url: "http://localhost:8080/api/Car/all",
+        url: "http://129.146.83.131:8080/api/Car/all",
         type: 'GET',
         dataType: 'JSON',
 
